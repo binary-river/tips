@@ -1,7 +1,7 @@
 #Bash Tips
 
 ### source
-`source [scriptname]`
+`source [scriptname]`<br>
  : Allow using functions in file [scriptname] on command line 
 <br><br>
 
