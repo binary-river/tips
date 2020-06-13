@@ -2,12 +2,12 @@
 
 ### source
 `source [scriptname]`
-:Allow using functions in file [scriptname] on command line 
+ : Allow using functions in file [scriptname] on command line 
 <br>
 
-# make
+### make
 `make [target]`
-:run codes which is belong to target in makefile,
+ : Run codes which is belong to target in makefile,
 makefile is consisted like this
 ``` 
 [target] : [dependencies..]
@@ -16,4 +16,12 @@ makefile is consisted like this
 if you write dependencies, then command will only run when dependencies change.
 <br>
 
--
+### expr
+'expr 1 + 2`
+ : Evaluate input, note that you should give space between numbers and arithmetic operators.
+if you want to calculate fractions or numbers with decimals, then use bc
+<br>
+
+### bc
+`bc [filename]`, `echo "expression" | bc -l`
+ : Evaluate math expression. you can calculate numbers with decimals, fracntion using this
