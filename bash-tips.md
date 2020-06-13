@@ -1,11 +1,11 @@
 #Bash Tips
 
-#source
+# source
 `source [scriptname]`
 Allow using functions in file [scriptname] on command line 
 <br>
 
-#make
+# make
 `make [target]`
 run codes which is belong to target in makefile,
 makefile is consisted like this
