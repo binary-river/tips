@@ -6,7 +6,7 @@
 <br><br>
 
 ### make
-`make [target]`
+`make [target]`<br>
  : Run codes which is belong to target in makefile,
 makefile is consisted like this
 ``` 
