@@ -23,6 +23,6 @@ if you want to calculate fractions or numbers with decimals, then use bc
 <br><br>
 
 ### bc
-`bc [filename]`, `echo "expression" | bc -l`
+`bc [filename]`, `echo "expression" | bc -l`<br>
  : Evaluate math expression. you can calculate numbers with decimals, fracntion using this
 <br><br>
