@@ -1,3 +1,0 @@
-#Bash Tips
-
-source [scriptname] : Allow using functions in file [scriptname] on command line
