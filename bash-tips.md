@@ -17,7 +17,7 @@ if you write dependencies, then command will only run when dependencies change.
 <br><br>
 
 ### expr
-'expr 1 + 2`
+`expr 1 + 2`
  : Evaluate input, note that you should give space between numbers and arithmetic operators.
 if you want to calculate fractions or numbers with decimals, then use bc
 <br><br>
