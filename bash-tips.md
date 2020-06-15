@@ -46,7 +46,7 @@ Notice that linefeed does not be stored in a variable even when you assign varia
 ### Conditional Expression
 `true || echo "after true"`<br>
 `false || echo "after false"`<br>
- : Conditional Expression is very precised `if..else`. if first condition is true followed by ||, then next condition doesn't get a chance to be runned
+ : Conditional Expression is compacted version of `if..else`. if first condition is true followed by ||, then next condition doesn't get a chance to be runned
  because first condition is true followed by || means whatever the next conditional expression gives, anyway total result will be true. So, in that way, 
 the second conditional expression will not be runned. `false || echo "after false"` works just opposite of `true || echo "after true"`
 <br><br>
