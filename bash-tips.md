@@ -55,7 +55,7 @@ the second conditional expression will not be runned. `false || echo "after fals
 `food=(chicken pizza hamburger cheese)`<br>
 `echo ${food[1]}`, `echo ${food[2]}`, `echo ${food[*]}`<br>
  : You can declare array variable using () and each elements separated by space.<br>
-Like other languages, index starts from zero, you can get elements by their index. And star(*) allow you to get all elements the array has separated by space 
+Like other languages, index starts from zero, you can get elements by their index. And star(*) allows you to get all elements the array has separated by space 
 <br><br>
 
 ### curl
