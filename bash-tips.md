@@ -53,4 +53,11 @@ the second conditional expression will not be runned. `false || echo "after fals
 
 ### Array
 `food=(chicken pizza hamburger cheese)`<br>
-`echo ${food[1]}`, `echo ${food[2]}`, `echo ${food[*]}`
+`echo ${food[1]}`, `echo ${food[2]}`, `echo ${food[*]}`<br>
+ : You can declare array variable using () and each elements separated by space.<br>
+Like other languages, index starts from zero, you can get elements by their index. And star(*) allow you to get all elements the array has separated by space 
+<br><br>
+
+### curl
+`curl http://httpbin.org/get`, `curl http://website.org/textfile.txt`<br>
+ : Curl is a tool for connection to other server. It will print the result you get from other server to standard output if you don't give -O option. You can download it as a file form using -O option. Note that you can't name files you want to download. Curl only download files from server as same name. Curl will replace files which have same name in your working directory to files you want to download.
