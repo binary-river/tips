@@ -65,3 +65,7 @@ Like other languages, index starts from zero, you can get elements by their inde
 ### nmcli
 `nmcli dev wifi list`, `nmcli dev wifi con [wifi-name] [wifi-pass]`
  : Connect wifi on terminal
+
+### :
+` while :; do echo "helloworld!"; sleep 10; done `, `if [ 1 = 1 ]; then :; else echo "helloworld!"`
+ : Colon in shell is equivalent of a NOP(no operation). Its exit status is 0 when you command it.
