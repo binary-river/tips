@@ -61,3 +61,7 @@ Like other languages, index starts from zero, you can get elements by their inde
 ### curl
 `curl http://httpbin.org/get`, `curl http://website.org/textfile.txt`<br>
  : Curl is a tool for connection to other server. It will print the result you get from other server to standard output if you don't give -O option. You can download it as a file form using -O option. Note that you can't name files you want to download. Curl only download files from server as same name. Curl will replace files which have same name in your working directory to files you want to download.
+
+### nmcli
+`nmcli dev wifi list`, `nmcli dev wifi con [wifi-name] [wifi-pass]`
+ : Connect wifi on terminal
