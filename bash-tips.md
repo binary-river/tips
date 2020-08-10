@@ -69,3 +69,5 @@ Like other languages, index starts from zero, you can get elements by their inde
 ### :
 ` while :; do echo "helloworld!"; sleep 10; done `, `if [ 1 = 1 ]; then :; else echo "helloworld!"`
  : Colon in shell is equivalent of a NOP(no operation). Its exit status is 0 when you command it.
+`: ${HOSTNAME?} ${USER?} ${MAIL?}`
+ : Print error messages if one or more of variables given not set
