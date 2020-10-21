@@ -61,10 +61,12 @@ Like other languages, index starts from zero, you can get elements by their inde
 ### curl
 `curl http://httpbin.org/get`, `curl http://website.org/textfile.txt`<br>
  : Curl is a tool for connection to other server. It will print the result you get from other server to standard output if you don't give -O option. You can download it as a file form using -O option. Note that you can't name files you want to download. Curl only download files from server as same name. Curl will replace files which have same name in your working directory to files you want to download.
+<br><br>
 
 ### nmcli
 `nmcli dev wifi list`, `nmcli dev wifi con [wifi-name] [wifi-pass]`
  : Connect wifi on terminal
+<br><br>
 
 ### :
 ` while :; do echo "helloworld!"; sleep 10; done `, `if [ 1 = 1 ]; then :; else echo "helloworld!"`
@@ -79,7 +81,7 @@ if [[ $var1 -eq 12 ]]
 ```
 `: ${HOSTNAME?} ${USER?} ${MAIL?}`
  : Print error messages if one or more of variables given not set
-
+<br><br>
 
 ### {}
 ```
@@ -89,3 +91,4 @@ if [[ $var1 -eq 12 ]]
 ```
 : Block of code. You can write some bunch of commands between curly brackets. It runs like function.<Br>
 But, unlike function, variables in block of code are visible to the remainder 
+<br><br>
