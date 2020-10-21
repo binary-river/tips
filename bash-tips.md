@@ -79,3 +79,13 @@ if [[ $var1 -eq 12 ]]
 ```
 `: ${HOSTNAME?} ${USER?} ${MAIL?}`
  : Print error messages if one or more of variables given not set
+
+
+### {}
+```
+{ var1="a"
+ var2="b"
+}
+```
+: Block of code. You can write some bunch of commands between curly brackets. It runs like function.<Br>
+But, unlike function, variables in block of code are visible to the remainder 
