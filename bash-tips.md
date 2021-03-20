@@ -43,7 +43,7 @@ Notice that linefeed does not be stored in a variable even when you assign varia
 - $# means number of arguments.a <br>
 
 `echo ${!i}`<br>
- : using ! sign for indirect reference. in this example, if variable i is 1 then shell prints result same as `echo ${1}`
+ : using ! sign for indirect reference. for this example, shell prints result same as `echo ${1}` if variable i is 1
 <br><br>
 
 ### Conditional Expression
