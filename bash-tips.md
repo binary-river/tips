@@ -40,7 +40,9 @@ Notice that linefeed does not be stored in a variable even when you assign varia
  : In a script, shell gives variables which allows you to use arguements, arguments info.<br>
 - $@ means all arguments. you will get all arguments separated by spaces.<br>
 - $1 $2 $3... mean a first argument, a second argument, a third argument. number means order of arguments<br>
-- $# means number of arguments.
+- $# means number of arguments.a <br>
+`echo ${!i}`
+ : using ! sign for indirect reference. in this example, if variable i is 1 then shell prints result same as `echo ${1}`
 <br><br>
 
 ### Conditional Expression
